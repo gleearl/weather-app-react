@@ -10,7 +10,6 @@ function App() {
   const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
   const d = new Date();
   
-  // const key = "544613c50840b157f51d996fb7f22b7c"
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=544613c50840b157f51d996fb7f22b7c`
 
   const searchLocation = (event) => {
